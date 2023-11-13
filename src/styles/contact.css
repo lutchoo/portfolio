@@ -1,0 +1,28 @@
+#main-contact{
+    width: 97%;
+    height: 100vh;
+    overflow: scroll;
+    max-height: 100vh;
+    font-weight: 500;
+    font-size: 17px;
+}
+#main-contact > h1{
+    color: #318ce7;
+    width: 70%;
+    margin: 2em auto;
+    border-bottom: dashed 1px #318ce7;
+}
+#main-contact > h1::after {
+    content: "";
+    background-image: url(icons/icons8-portefeuille-24.png);
+    background-size: cover; /* Utilise la valeur "cover" pour remplir complètement le pseudo-élément */
+    width: 45px;
+    height: 45px;
+    position: absolute; /* Positionne l'icône par rapport au titre */
+    right: 15%;
+    top: 7%;
+}
+
+#map{
+    width: 100%;
+}

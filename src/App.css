@@ -1,0 +1,35 @@
+#root {
+  display: flex;
+  flex-direction: row;
+}
+
+#mainApp{
+  width: 97%;
+  height: 100vh;
+  background-image: url(./styles/img/bg.3caafa4fb88fc8aa6fc5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+
+#mainTextLoad{
+  z-index: 1000000;
+}
+#mainTextLoad h1{
+  font-size: 50px;
+  font-weight: 900;
+
+}
+#mainTextLoad h2{
+  font-size: 40PX;
+  font-weight: 500;
+}
+
+span{
+  color: #318ce7;
+}

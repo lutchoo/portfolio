@@ -1,0 +1,180 @@
+#main-about{
+    width: 97%;
+    height: 100vh;
+    overflow: scroll;
+    max-height: 100vh;
+    font-weight: 500;
+    font-size: 20px;
+    z-index: 0;
+}
+#main-about > h1{
+    color: #318ce7;
+    width: 70%;
+    margin: 2em auto;
+    border-bottom: dashed 1px #318ce7;
+}
+#main-about > h1::after {
+    content: "";
+    background-image: url(icons/icons8-utilisateur-30.png);
+    background-size: cover; /* Utilise la valeur "cover" pour remplir complètement le pseudo-élément */
+    width: 45px;
+    height: 45px;
+    position: absolute; /* Positionne l'icône par rapport au titre */
+    right: 15%;
+}
+#main-about > h2{
+    padding-top: 0;
+}
+#containeur{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 5em;
+    display: flex;
+    flex-direction: row;
+}
+#motivation{
+    width: 75%;
+}
+#inline{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+#inline article{
+    margin: 1%;
+}
+#inline article:hover{
+    scale: 1.5;
+}
+#html{
+    width: 50px;
+    height: 50px;
+    background-image: url(./logo/icons8-html-5-48.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#css{
+    width: 50px;
+    height: 50px;
+    background-image: url(./logo/icons8-css-48.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#java{
+    width: 50px;
+    height: 50px;
+    background-image: url(./logo/icons8-javascript-48.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#php{
+    width: 50px;
+    height: 50px;
+    background-image: url(./logo/icons8-php-48.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#wordpress{
+    width: 50px;
+    height: 50px;
+    background-image: url(./logo/icons8-wordpress-48.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#symfony{
+    width: 50px;
+    height: 50px;
+    background-image: url(./logo/icons8-symfony-48.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#react{
+    width: 50px;
+    height: 50px;
+    background-image: url(./logo/icons8-réagir-40.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#carde{
+    width: 50%;
+    padding-top: 2em;
+}
+#card-container{
+    margin: 0 auto;
+}
+#outil{
+    width: 25%;
+}
+#capaciter{
+    width: 25%;
+}
+#langue{
+    width: 25%;
+}
+#sl{
+    width: 25%;
+}
+#more{
+    width: 15vw;
+    background-color: white;
+    color: black;
+}
+#more > img{
+    
+    background-image: url(../styles/img/profil.webp);
+    background-size: 50px;
+    background-repeat: no-repeat;
+
+}
+span{
+    color: #318ce7;
+}
+#bot{
+    width: 100%;
+    
+}
+
+#about-bot{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+#about-bot >h2{
+    text-align: center;
+}
+#about-bot > h5{
+    width: 33.33%;
+}
+
+#capaciter{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#front{
+    width: 33.33%;
+}
+#front::before{
+    content: url(logo/icons8-télévision-64.png);
+}
+#back{
+    width: 33.33%;
+}
+#back::before{
+    content: url(logo/icons8-papier-64.png);
+}
+#responsive{
+text-align :start;
+width: 33.33%;
+}
+#responsive::before{
+    content: url(logo/icons8-smartphone-64.png);
+}
